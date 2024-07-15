@@ -1,0 +1,64 @@
+:root {
+    /* Colors */
+    --primary-color: #db7734;
+    --secondary-color: #2ecc71;
+    --text-color: #0c0c0c;
+    
+    /* Font sizes */
+    --font-size-small: 14px;
+    --font-size-medium: 16px;
+    --font-size-large: 20px;
+    
+    /* Spacing */
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 24px;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: var(--primary-color);
+    padding: var(--spacing-medium);
+    text-align: center;
+    color: white;
+  }
+  
+  /* Main content styles */
+  section {
+    padding: var(--spacing-large);
+  }
+  
+  h1, h2 {
+    font-size: var(--font-size-large);
+    margin-bottom: var(--spacing-medium);
+  }
+  
+  p {
+    font-size: var(--font-size-medium);
+    margin-bottom: var(--spacing-medium);
+  }
+  
+  .button {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: var(--spacing-medium) var(--spacing-large);
+    border: none;
+    cursor: pointer;
+    font-size: var(--font-size-medium);
+    border-radius: 4px;
+    text-align: center;
+ 
+  }
+  
+  .button:hover {
+    background-color: #27ae60; /* darker shade of secondary color for hover */
+  }

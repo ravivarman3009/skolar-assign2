@@ -1,0 +1,51 @@
+/* Styling using different CSS selectors */
+body{background-color: rgb(94,245,157);}
+/* Element Selector */
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+/* ID Selector */
+#unique-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+
+/* Class Selector */
+.normal-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.special-paragraph {
+    background-color: rgb(248, 212, 189);
+    padding: 10px;
+    border: 1px solid orange;
+}
+
+.link {
+    text-decoration: none;
+    color: red;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Attribute Selector (for attributes like href in links) */
+a[href="#"] {
+    color: blue;
+}
+
+/* Pseudo-class (:hover) */
+label:hover {
+    background-color: lightblue;
+}
+
+/* Pseudo-element (::before) */
+label::before {
+    content: "* ";
+    color: red;
+}

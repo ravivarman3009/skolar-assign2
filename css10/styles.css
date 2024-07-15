@@ -1,0 +1,48 @@
+/* Global styles for the page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .image-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 75%; /* 4:3 aspect ratio */
+    background-color: #ddd; /* Placeholder background color */
+  }
+  
+  .responsive-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('WhatsApp\ Image\ 2024-07-14\ at\ 11.14.17\ AM.jpeg.jpg');
+    background-size: cover;
+  }
+  
+  /* Media queries for different screen sizes */
+  @media (min-width: 600px) {
+    .responsive-image {
+      background-image: url('WhatsApp\ Image\ 2024-07-14\ at\ 11.43.08\ AM.jpeg');
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    .responsive-image {
+      background-image: url('WhatsApp\ Image\ 2024-07-14\ at\ 11.14.17\ AM.jpeg.jpg');
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .responsive-image {
+      background-image: url('WhatsApp\ Image\ 2024-07-14\ at\ 11.14.17\ AM.jpeg.jpg');
+    }
+  }

@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-size: cover;
+    height: 800px;
+    margin-bottom: 20px ;
+    margin-top: 20px ;
+    padding: 20px;
+    background-color: #ace412;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+    h1 {
+        text-align: center;
+        color: #fc02bd;
+       
+    }
+    
+    .box {
+        background-color: #8f2e2e;
+        padding: 20px;
+        margin-top: 20px;
+        height:500px;
+        border-radius: 5px;
+    }
+    
+    .box h2 {
+        color: #b702e4;
+        text-align: center;
+       
+    }
+    
+    .box p { 
+        text-align:center;
+        background: linear-gradient(to bottom right, #ff8c00, #ffc107); /* Orange gradient */
+        color: #0e0d0db1; /* Set text color to contrast with the gradient */
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 350px;
+        margin-right: 350px;
+        border-radius: 100px;
+    }
+     .box {
+        background-image: url('WhatsApp\ Image\ 2024-07-14\ at\ 11.14.17\ AM.jpeg.jpg');
+        background-size: cover;
+        background-repeat: repeat-x; /* Repeat horizontally */
+        background-position: center top; /* Center horizontally and align to top */
+    
+    }

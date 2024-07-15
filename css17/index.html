@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+    
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="female">other</option>
+        </select>
+    
+        <fieldset>
+            <legend>Choose your subscription plan:</legend>
+            <input type="radio" id="basic" name="subscription" value="basic" required>
+            <label for="basic">Basic</label><br>
+    
+            <input type="radio" id="premium" name="subscription" value="premium">
+            <label for="premium">Premium</label><br>
+    
+            <input type="radio" id="enterprise" name="subscription" value="enterprise">
+            <label for="enterprise">Enterprise</label><br>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Select your interests:</legend>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label><br>
+    
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label><br>
+    
+            <input type="checkbox" id="tech" name="interests" value="tech">
+            <label for="tech">Tech</label><br>
+        </fieldset>
+    
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    line-height: 150px;
+    font-size: 1.2em;
+    margin: 20px;
+    cursor: pointer;
+    transition-property: background-color, color, width, height;
+    transition-duration: 0.3s; /* Animation speed */
+    transition-timing-function: ease; /* Animation curve */
+    transition-delay: 0s; /* Delay before animation starts */
+}
+
+.box:hover {
+    background-color: #e74c3c;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+}
